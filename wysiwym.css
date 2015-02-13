@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/*
+        ___
+       /   |_   _____  _________ _____ ____
+      / /| | | / / _ \/ ___/ __ `/ __ `/ _ \
+     / ___ | |/ /  __/ /  / /_/ / /_/ /  __/
+    /_/  |_|___/\___/_/   \__,_/\__, /\___/
+                               /____/     ™
+                               by Joe Rhoney
+*/
+
+
+
+/*
+    W Y S I W Y M
+    =============
+*/
+
+h1:before,
+h2:before,
+h3:before,
+h4:before,
+h5:before,
+h6:before,
+div:not(.mce-resizehandle):not(.data-mce-bogus):not(.gallery):not([class*='wpview']):not(.dashicons):not(.toolbar):before,
+ol:before,
+p:before,
+ul:before {
+  font: 10px/1 "Arial", sans-serif;
+  color: #fff;
+  width: 7px;
+  padding: 2px 0 1px 2px;
+  margin: -1px 0 0 -10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div:not(.mce-resizehandle):not([data-mce-bogus]):not(.gallery):not([class*='wpview']):not(.dashicons):not(.toolbar),
+li,
+ol,
+p:not(#wp-image-toolbar),
+ul {
+  border-radius: 3px;
+  border-top-left-radius: 0;
+  position: relative;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+img, li, .wp-caption {
+  pointer-events: auto;
+}
+div:not(.mce-resizehandle):not(.data-mce-bogus):not(.gallery):not([class*='wpview']):not(.dashicons):not(.toolbar):before { content: "V"; background: rgba(180,235,0,0.4); }
+div:not(.mce-resizehandle):not([data-mce-bogus]):not(.gallery):not([class*='wpview']):not(.dashicons):not(.toolbar) { border: 1px solid rgba(180,235,0,0.4); }
+h1:before { content: "1"; background: rgba(0,180,235,0.3); }
+h2:before { content: "2"; background: rgba(0,180,235,0.3); }
+h3:before { content: "3"; background: rgba(0,180,235,0.3); }
+h4:before { content: "4"; background: rgba(0,180,235,0.3); }
+h5:before { content: "5"; background: rgba(0,180,235,0.3); }
+h6:before { content: "6"; background: rgba(0,180,235,0.3); }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { border: 1px solid rgba(0,180,235,0.3); }
+li { border: 1px solid rgba(205,255,0,0.4); }
+ol:before { content: "#"; background: rgba(255,215,0,0.4); }
+ol { border: 1px solid rgba(255,215,0,0.3); }
+p:not(#wp-image-toolbar):before { content: "P"; background: rgba(255,0,105,0.25); }
+p:not(#wp-image-toolbar) { border: 1px solid rgba(255,0,105,0.15); }
+  p.ratio:before { margin: -1px 0 0 -10px; float: none; }
+ul:before { content: "L"; background: rgba(255,150,0,0.35); }
+ul { border: 1px solid rgba(255,150,0,0.35); }
+span {
+  background: rgba(150,0,255,0.1);
+  outline: 5px solid rgba(150,0,255,0.1);
+}
