@@ -1,7 +1,7 @@
 
 === AddFunc WYSIWYG Helper ===
 
-Contributors: addfunc,average.technology,joerhoney
+Contributors: AddFunc,average.technology,joerhoney
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7AF7P3TFKQ2C2
 Tags: wysiwym,wysiwyg,editor,editor helper,visual editor,visual editor highlighter,visual que,colorize,colorizer,highlighter,highlight elements,editor highlights,reveal elements,show editor elements,tinymce,tiny mce
 Requires at least: 3.0.1
