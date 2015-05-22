@@ -3,9 +3,9 @@
 
 Contributors: addfunc,average.technology,joerhoney
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7AF7P3TFKQ2C2
-Tags: wysiwym,wysiwyg,tinymce,element highlighter
+Tags: wysiwym,wysiwyg,editor,editor helper,visual editor,visual editor highlighter,visual que,colorize,colorizer,highlighter,highlight elements,editor highlights,reveal elements,show editor elements,tinymce,tiny mce
 Requires at least: 3.0.1
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: 2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -14,7 +14,7 @@ Highlights prominent HTML elements in the WYSIWYG editor, to help Editors see wh
 
 == Description ==
 
-AddFunc WYSIWYG Helper is a lightweight plugin that uses CSS to highlight prominent HTML elements in the default WYSIWYG editor (Tiny MCE), to help Editors see what they're editing. This in effect creates a sort of combination WYSIWYG/[WYSIWYM](http://mcs.open.ac.uk/nlg/old_projects/wysiwym/) (What You See Is What You Mean) combination. With the WYSIWYM option turned on in your user profile, the following elements are highlighted with a colored border and label:
+AddFunc WYSIWYG Helper is a lightweight plugin that uses CSS to highlight prominent HTML elements in the default WYSIWYG editor (Tiny MCE), to help Editors see what they're editing. This in effect creates a sort of combination WYSIWYG/[WYSIWYM](http://mcs.open.ac.uk/nlg/old_projects/wysiwym/) (What You See Is What You Mean). With the WYSIWYM option turned on in your **user profile** (it's off by default), the following elements are highlighted with a colored border and label:
 
 *   p
 *   div
@@ -23,7 +23,7 @@ AddFunc WYSIWYG Helper is a lightweight plugin that uses CSS to highlight promin
 *   li
 *   span*
 
-*Span are highlighted without a label, but even more prominently, so they are easy to spot. This can help Editors keep the code clean, as they can see where they need to remove unwanted styling using the style eraser button.
+*Spans are highlighted without a label, but even more prominently, so they are easy to spot. This can help Editors keep the code clean, as they can see where they need to remove unwanted styling using the style eraser button.
 
 Your theme can still apply an editor-style.css stylesheet. In most cases, the WYSIWYG will still reflect how the content will look on the front end of the live website.
 
